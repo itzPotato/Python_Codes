@@ -1,0 +1,13 @@
+from operator import mod
+print("What year do you want to check?")
+leapyear=input()
+if int(leapyear)%4==0:
+    if int(leapyear)%100==0:
+        if int(leapyear)%400==0:
+            print(leapyear,"is a leap year!")
+        else:
+            print(leapyear,"is not a leap year...")
+    else: 
+        print(leapyear,"is a leap year...")
+else:
+    print(leapyear,"is not a leap year...")

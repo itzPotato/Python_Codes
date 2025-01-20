@@ -1,0 +1,5 @@
+print("What is the termprature in farenheit?")
+f=input()
+fraction=5/9
+c=(int(f)-32)*float(fraction)
+print("The temprature of",f"degrees farenheit in celcius is",c)
